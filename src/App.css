@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: black;
+}
+
+nav li{
+  list-style-type: none;
+  color: white;
+}
+
+.textcontainer{
+  position: relative;
+  top: 11px;
+  left: 210px;
+}
+
+.prophead{
+  position: relative;
+  bottom: 6px;
+}
+
+.upperbtn{
+  position: relative;
+  top: 25px;
+  right: 385px;
+  font-weight: bolder;
+  background-color: green;
+  width: 110px;
+  border-radius: 5%;
+  color: white;
+}
+
+.lowerbtn{
+  position: relative;
+  top: 25px;
+  right: 230px;
+  font-weight: bolder;
+  background-color: green;
+  width: 110px;
+  border-radius: 5%;
+  color: white;
+}
+
+.ttsbtn{
+  position: relative;
+  top: 25px;
+  right: 477px;
+  font-weight: bolder;
+  background-color: green;
+  width: 110px;
+  border-radius: 5%;
+  color: white;
+}
+
+.textcontainer2{
+  position: relative;
+  top: 41px;
+  left: 210px;
+}
